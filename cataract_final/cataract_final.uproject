@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{C092DCA3-41A8-4F8E-06A9-ADB5DBE7E765}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "cataract_final",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"OptitrackNatnet"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OptitrackNatnet",
+			"Enabled": true
+		}
+	]
+}
